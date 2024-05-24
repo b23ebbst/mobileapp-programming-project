@@ -12,7 +12,7 @@ public class JsonFile {
     private final com.example.project.JsonTask.JsonTaskListener listener;
     private final Activity activity;
 
-    public JsonFile(MainActivity activity, JsonTask.JsonTaskListener listener) {
+    public JsonFile(Activity activity, JsonTask.JsonTaskListener listener) {
         this.activity = activity;
         this.listener = listener;
     }
